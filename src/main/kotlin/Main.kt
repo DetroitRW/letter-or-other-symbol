@@ -11,3 +11,13 @@ fun main(args: Array<String>) {
     val z = "z".toInt()
     val A = "A".toInt()
     val Z = "Z".toInt()
+
+
+    if (a <= n <= z || A <= n <= Z) {
+    print("Это буква", Char(n))
+    }
+    else {
+    print("Это не буква, а символ", Char(n))
+    }
+}
+
